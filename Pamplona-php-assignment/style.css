@@ -1,0 +1,124 @@
+/* style.css - Complete styling for all tasks */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Task 1 Styling */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 2.5em;
+}
+
+.intro {
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    margin: 30px 0;
+    border-radius: 2px;
+}
+
+/* Task 3: Dynamic Greeting Styling */
+.greeting {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.greeting h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.greeting p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* Task 2: Student Information Styling */
+.student-info {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #667eea;
+    margin: 20px 0;
+}
+
+.student-info h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.student-info p {
+    margin-bottom: 15px;
+    font-size: 17px;
+    padding: 8px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+.student-info p:last-child {
+    border-bottom: none;
+}
+
+.student-info strong {
+    color: #2c3e50;
+    min-width: 120px;
+    display: inline-block;
+}
+
+/* Bonus Section */
+.bonus {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #f0f7ff;
+    border-radius: 10px;
+    border: 2px dashed #667eea;
+}
+
+.bonus h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.bonus p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
